@@ -28,15 +28,16 @@ The order of command line arguments is:
 1. Number of games
 2. Board size
 3. Win size
-4. Type of player one (human, genius, clever, random)
-5. Type of player two (human, genius, clever, random)
+4. Renderer Type(Console,none
+5. Type of player one (human, genius, clever, random)
+6. Type of player two (human, genius, clever, random)
    
 ## Getting Started
 
 To play the game, ensure you have Java installed. Run the `Tournament.java` file with the appropriate command line arguments to start the game.
 
 ```bash
-java Tournament <number_of_games> <board_size> <win_size> <player_one_type> <player_two_type>
+java Tournament <number_of_games> <board_size> <win_size> <renderer_type> <player_one_type> <player_two_type>
 ```
 
 ## Contributing
