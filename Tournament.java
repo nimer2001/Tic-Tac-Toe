@@ -107,7 +107,10 @@ public class Tournament {
      * @param args the args from command line arguments
      */
     public static void main(String[] args) {
-
+        if(args.length!=6){
+            System.out.println("The number of the command line arguments should be 6");
+            return;
+        }
         boolean[] check_p = check_parameters(args[4], args[5], args[3]);
         if (!check_p[1]) {
             System.out.println(Constants.UNKNOWN_RENDERER_NAME);
