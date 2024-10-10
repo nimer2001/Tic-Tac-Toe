@@ -16,11 +16,11 @@ This project is an enhanced version of the classic Tic Tac Toe game implemented 
 - **Game Over Conditions:** The game ends when the win condition is met or all cells are filled.
 
 ## How to Play
-
-1. Set the game rules via command line arguments: number of games, board size, win size, player one type, and player two type.
-2. Players take turns placing their marks on the board.
-3. The game provides feedback on the winner and updates the score.
-4. The game ends when the specified number of rounds is completed.
+1.Run the Tournament.java file.
+2. Set the game rules via command line arguments: number of games, board size, win size, player one type, and player two type.
+3. Players take turns placing their marks on the board.
+4. The game provides feedback on the winner and updates the score.
+5. The game ends when the specified number of rounds is completed.
 
 ## Command Line Arguments
 
